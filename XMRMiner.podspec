@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.public_header_files = ['XMRMiner/Source/**/*.h']
   s.private_header_files = private_headers
 
-  s.dependency 'CocoaAsyncSocket', '~> 7.6'
-  s.dependency 'ObjectMapper', '~> 3.0'
+  s.dependency 'CocoaAsyncSocket'
+  s.dependency 'ObjectMapper'
   s.dependency 'NSData+FastHex'
 end
